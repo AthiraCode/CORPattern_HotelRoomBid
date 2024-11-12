@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Room Bidding System</title>
+</head>
+<body>
+
+    <h1>Hotel Room Bidding</h1>
+
+    <label for="bidPrice">Enter your bid price ($):</label>
+    <input type="number" id="bidPrice" placeholder="Enter bid price">
+    <button onclick="submitBid()">Submit Bid</button>
+
+    <div id="message"></div>
+
+    <h2>Room Availability</h2>
+    <p>Suite: <span id="suiteCount">10</span> rooms available</p>
+    <p>Deluxe: <span id="deluxeCount">15</span> rooms available</p>
+    <p>Standard: <span id="standardCount">45</span> rooms available</p>
+
+    <script src="roomBid.js"></script>
+</body>
+</html>
